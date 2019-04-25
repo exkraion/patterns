@@ -1,5 +1,8 @@
 <?php
 
+namespace Tests\Factory\Simple\V1;
+
+
 use App\Factory\Simple\V1\PersonAbstract;
 use PHPUnit\Framework\TestCase;
 use App\Factory\Simple\V1\PersonFactory;
@@ -19,7 +22,7 @@ class V1Test extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws \Exception
      */
     public function testInstanceOfPerson()
     {
